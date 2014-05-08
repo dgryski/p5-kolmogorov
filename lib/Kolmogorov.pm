@@ -61,8 +61,6 @@ sub qks {
 
        die "bad z in qks" if $z < 0;
 
-        print "z=$z\n";
-
         return 1 if $z == 1;
 
         return 1 - pks($z) if $z < 1.18;
